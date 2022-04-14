@@ -4,7 +4,6 @@ let users = [];
 
 fs.readFile("database.json", (err, data) => {
   if (err) throw err;
-
   users = JSON.parse(data);
 });
 
